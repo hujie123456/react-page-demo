@@ -1,0 +1,37 @@
+$drawer-duration: 500ms;
+
+.mask-enter {
+  opacity: 0;
+}
+
+.mask-enter-active {
+  opacity: 1;
+  transition: opacity $drawer-duration;
+}
+
+.mask-exit {
+  opacity: 1;
+}
+
+.mask-exit-active {
+  opacity: 0;
+  transition: opacity $drawer-duration;
+}
+
+.content-enter {
+  transform: translateX(100%);
+}
+
+.content-enter-active {
+  transform: translateX(0%);
+  transition: transform $drawer-duration;
+}
+
+.content-exit {
+  transform: translateX(0%);
+}
+
+.content-exit-active {
+  transform: translateX(100%);
+  transition: transform $drawer-duration;
+}

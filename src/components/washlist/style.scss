@@ -1,0 +1,7 @@
+.close:hover .line:nth-child(1) {
+  transform: rotate(180deg);
+}
+
+.close:hover .line:nth-child(2) {
+  transform: rotate(0deg);
+}
